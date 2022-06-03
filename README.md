@@ -9,7 +9,7 @@
 [REST API курсов валют](https://docs.openexchangerates.org/)
 [REST API гифок](https://developers.giphy.com/docs/api#quick-start-guide)
 
-## Must Have
+### Must Have
 
 *  Сервис на Spring Boot 2 + Java / Kotlin
 *  Запросы приходят на HTTP endpoint (должен быть написан в соответствии с rest conventions), туда передается код валюты по отношению с которой сравнивается USD
@@ -19,8 +19,8 @@
 *  Для сборки должен использоваться Gradle
 *  Результатом выполнения должен быть репо на GitHub с инструкцией по запуску
 
-## Nice to Have
+### Nice to Have
 
 *  Сборка и запуск Docker контейнера с этим сервисом
 	
-# Работа программы: 
+## Работа программы: 
