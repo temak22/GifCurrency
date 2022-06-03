@@ -23,4 +23,15 @@
 
 *  Сборка и запуск Docker контейнера с этим сервисом
 	
-## Работа программы: 
+## Работа программы:
+
+	/giphy/{currency}
+
+![вывод в браузер](img/img.png)
+
+	/currency/yesterdayValue/{currency}
+	/currency/actualValue/{currency}
+	
+![вывод в браузер](img/img_1.png)
+
+## Установка
