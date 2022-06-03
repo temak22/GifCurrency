@@ -36,3 +36,21 @@
 ![вывод в браузер](img/img_1.png)
 
 ## Установка
+Склонировать репозиторий, выполнив команду: 
+  
+	git clone https://github.com/temak22/GifCurrency.git  
+	
+Перейдя в корневую папку проекта собрать проект:  
+  
+	gradlew build  
+	
+Собрать докер-образ с произвольным именем, например alfagif:  
+  
+	docker image build -t alfagif .   
+	
+Запустить контейнер с нашим образом: 
+  
+	docker run -p 8007:8007 docker.io/library/alfagif
+	
+
+Сервис запущен на порту 8007.
