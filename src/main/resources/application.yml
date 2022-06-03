@@ -1,0 +1,15 @@
+server:
+  port: 8007
+
+giphy:
+  apiKey : pI3ZVnq05EcuIydZsXP3828JfrwwhU3m
+  url : http://api.giphy.com/v1/gifs/search
+  answer:
+    bigger : rich
+    less : broke
+    same : same
+
+openex:
+  apiKey : 1911c108dada4ca1b52967f3f0a9814c
+  url : https://openexchangerates.org/api/
+  base : USD
